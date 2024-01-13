@@ -1,0 +1,24 @@
+Km/H,MPH,Train,Location,Date,Comments,Country
+200,120,Class 1000 Shinkansen,Kamonomiya test track in Odawara now part of Tōkaidō Shinkansen,31 October 1962,,Japan
+256,159,Class 1000 Shinkansen,Kamonomiya test track,30 March 1963,Former world speed record for EMU trains.,Japan
+286,178,Class 951 Shinkansen,San'yō Shinkansen,24 February 1972,Former world speed record for EMU trains.,Japan
+319,198,Class 961 Shinkansen,Oyama test track now part of Tōhoku Shinkansen,7 December 1979,Former world speed record for EMU trains.,Japan
+326,203,300 series,Tōkaidō Shinkansen,28 February 1991,,Japan
+336,209,400 series,Jōetsu Shinkansen,26 March 1991,,Japan
+345,214,400 series,Jōetsu Shinkansen,19 September 1991,,Japan
+346,215,500-900 series "WIN350",San'yō Shinkansen,6 August 1992,,Japan
+350,220,500–900 series "WIN350",San'yō Shinkansen,8 August 1992,,Japan
+352,219,Class 952/953 "STAR21",Jōetsu Shinkansen,30 October 1992,,Japan
+425,264,Class 952/953 "STAR21",Jōetsu Shinkansen,21 December 1993,,Japan
+427,265,Class 955 "300X",Tōkaidō Shinkansen,11 July 1996,,Japan
+443,275,Class 955 "300X",Tōkaidō Shinkansen,26 July 1996,,Japan
+550,340,MLX01,Chūō Shinkansen (Yamanashi test track),24 December 1997,Former world speed record,Japan
+552,343,,,14 April 1999,,Japan
+581,361,,,2 December 2003,,Japan
+590,370,L0 series,,16 April 2015,,Japan
+603,375,,,21 April 2015,World speed record,Japan
+,112,Zephyr,,26 May 1934,,United States
+,125,Metroliner,,16 January 1969,,United States
+,150,Acela,,11 December 2000,,United States
+,125,Brightline,,13 January 2018,,United States
+,165,Avelia Liberty,,2024,,United States
