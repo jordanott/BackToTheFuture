@@ -1,4 +1,12 @@
+import matplotlib
 import pandas as pd
+
+matplotlib.rcParams["figure.figsize"] = (12, 6)
+matplotlib.rcParams["axes.spines.right"] = False
+matplotlib.rcParams["axes.spines.top"] = False
+matplotlib.rcParams["axes.labelsize"] = 20
+matplotlib.rcParams["xtick.labelsize"] = 15
+matplotlib.rcParams["ytick.labelsize"] = 15
 
 
 def format_year_month_table(df: pd.DataFrame, value_name: str = "Value"):
@@ -12,7 +20,7 @@ def format_year_month_table(df: pd.DataFrame, value_name: str = "Value"):
     df = pd.melt(df, id_vars=["Year"], var_name="Month", value_name=value_name)
 
     # Convert abbreviated month to int; combine into single data column
-    df["Month"] = pd.to_datetime(df['Month'], format='%b').dt.month
+    df["Month"] = pd.to_datetime(df["Month"], format="%b").dt.month
     df["Date"] = pd.to_datetime(df[["Year", "Month"]].assign(DAY=1))
     df = df.sort_values(by="Date").reset_index(drop=True)
 
