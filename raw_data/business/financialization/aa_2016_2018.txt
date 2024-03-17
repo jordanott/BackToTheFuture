@@ -1,0 +1,12 @@
+Year,2018,2017,2016
+Revenue passenger miles (millions) (a),231160,226346,223477
+Available seat miles (millions) (b),282054,276493,273410
+Passenger load factor (percent) (c),82,81.9,81.7
+Yield (cents) (d),17.6,17.29,16.58
+Passenger revenue per available seat mile (cents) (e),14.42,14.15,13.55
+Total revenue per available seat mile (cents),15.79,15.42,14.68
+Aircraft at end of period,1551,1545,1536
+Fuel consumption (gallons in millions),4447,4352,4347
+Average aircraft fuel price including related taxes (dollars per gallon),2.23,1.73,1.42
+Full-time equivalent employees at end of period,128900,126600,122300
+Total operating cost per available seat mile (cents),14.85,13.88,12.83
