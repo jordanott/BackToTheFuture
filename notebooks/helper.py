@@ -1,13 +1,15 @@
 import matplotlib
 import pandas as pd
 
-matplotlib.rcParams["figure.figsize"] = (10, 6)
 matplotlib.rcParams["axes.spines.right"] = False
 matplotlib.rcParams["axes.spines.top"] = False
 matplotlib.rcParams["axes.labelsize"] = 20
 matplotlib.rcParams["xtick.labelsize"] = 15
 matplotlib.rcParams["ytick.labelsize"] = 15
 matplotlib.rcParams["savefig.bbox"] = "tight"
+matplotlib.rcParams["legend.fontsize"] = 20
+matplotlib.rcParams["axes.titlesize"] = 25
+matplotlib.rcParams["figure.figsize"] = (10, 6)
 
 
 def format_year_month_table(df: pd.DataFrame, value_name: str = "Value"):
