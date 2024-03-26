@@ -8,6 +8,7 @@ matplotlib.rcParams["xtick.labelsize"] = 15
 matplotlib.rcParams["ytick.labelsize"] = 15
 matplotlib.rcParams["savefig.bbox"] = "tight"
 matplotlib.rcParams["legend.fontsize"] = 15
+matplotlib.rcParams["legend.title_fontsize"] = 15
 matplotlib.rcParams["axes.titlesize"] = 25
 matplotlib.rcParams["figure.figsize"] = (10, 6)
 
