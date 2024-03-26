@@ -1,12 +1,14 @@
 Plane,Year,Cruise Speed,Top Speed,Source
-Boeing 247, 1933, 189, 200, https://g.co/kgs/76ALY6
-Douglas DC-3, 1935, 207, 257, https://g.co/kgs/hTVUaT
-Douglas DC-4, 1942, 227, 280, https://g.co/kgs/estQje
-Lockhead 749, 1947, 275, 347, https://aeropedia.com.au/content/lockheed-l-749-constellation/
-Boeing 707, 1958, 604, 627, https://en.wikipedia.org/wiki/Boeing_707
-Boeing 747-100, 1969, 595, 616, https://www.boeing-747.com/boeing_747_family/747-100.php
-Boeing 747-300, 1982, 555, 593, https://g.co/kgs/X8dLdW
-Boeing 747-400, 1988, 564, 614, https://g.co/kgs/X8dLdW
-Boeing 777, 1994, 590, 682, https://g.co/kgs/uttx54
-Boeing 747-8, 2010, 568, 614, https://g.co/kgs/R4P8Gf
-Boeing 787, 2009, 567, 593, https://g.co/kgs/vby3MQ
+B-247, 1933, 189, 200, https://g.co/kgs/76ALY6
+DC-3, 1935, 207, 257, https://g.co/kgs/hTVUaT
+DC-4, 1942, 227, 280, https://g.co/kgs/estQje
+L-749, 1947, 275, 347, https://aeropedia.com.au/content/lockheed-l-749-constellation/
+DC-6, 1947, 311, 315, https://en.wikipedia.org/wiki/Douglas_DC-6
+B-707, 1958, 604, 627, https://en.wikipedia.org/wiki/Boeing_707
+B-737, 1967, 544, 544, https://en.wikipedia.org/wiki/Boeing_737
+B-747-100, 1969, 595, 616, https://www.boeing-747.com/boeing_747_family/747-100.php
+B-747-300, 1982, 555, 593, https://g.co/kgs/X8dLdW
+B-747-400, 1988, 564, 614, https://g.co/kgs/X8dLdW
+B-777, 1994, 590, 682, https://g.co/kgs/uttx54
+B-747-8, 2010, 568, 614, https://g.co/kgs/R4P8Gf
+B-787, 2009, 567, 593, https://g.co/kgs/vby3MQ
