@@ -1,5 +1,6 @@
 import matplotlib
 import pandas as pd
+import matplotlib.pyplot as plt
 
 matplotlib.rcParams["axes.spines.right"] = False
 matplotlib.rcParams["axes.spines.top"] = False
@@ -11,6 +12,17 @@ matplotlib.rcParams["legend.fontsize"] = 15
 matplotlib.rcParams["legend.title_fontsize"] = 15
 matplotlib.rcParams["axes.titlesize"] = 25
 matplotlib.rcParams["figure.figsize"] = (10, 6)
+
+
+def create_legend(legend=None, title: str = None, loc: str = None):
+    if legend is None:
+        legend = plt.legend(loc=loc)
+    
+    if title is not None:
+        legend.set_title(title)
+        
+    legend.get_frame().set_alpha(None)
+    legend.get_frame().set_facecolor((0, 0, 0, 0))
 
 
 def format_year_month_table(df: pd.DataFrame, value_name: str = "Value"):
