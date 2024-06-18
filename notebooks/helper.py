@@ -24,6 +24,8 @@ def create_legend(legend=None, title: str = None, loc: str = None):
     legend.get_frame().set_alpha(None)
     legend.get_frame().set_facecolor((0, 0, 0, 0))
 
+    return legend
+
 
 def format_year_month_table(df: pd.DataFrame, value_name: str = "Value"):
     """
