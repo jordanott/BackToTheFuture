@@ -12,6 +12,7 @@ matplotlib.rcParams["legend.fontsize"] = 15
 matplotlib.rcParams["legend.title_fontsize"] = 15
 matplotlib.rcParams["axes.titlesize"] = 25
 matplotlib.rcParams["figure.figsize"] = (10, 6)
+matplotlib.rcParams["lines.linewidth"] = 1.75
 
 
 def create_legend(legend=None, title: str = None, loc: str = None):
