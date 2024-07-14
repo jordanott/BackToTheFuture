@@ -132,3 +132,6 @@ dmypy.json
 # VSCode
 .vscode/
 images
+
+# I don't have permission to make the data publicly available
+stock_buybacks.csv
