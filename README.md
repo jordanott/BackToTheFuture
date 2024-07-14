@@ -1,4 +1,4 @@
-# Back to the Future: How to Reignite American Innovation
+## Back to the Future: How to Reignite American Innovation
 
 All code and data required to reporduce figures from the book.
 
