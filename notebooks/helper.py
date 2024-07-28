@@ -1,6 +1,11 @@
+from typing import Tuple
+
 import matplotlib
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.offsetbox import (OffsetImage, AnnotationBbox)
+
+LOGO_IMAGE = None
 
 matplotlib.rcParams["axes.spines.right"] = False
 matplotlib.rcParams["axes.spines.top"] = False
@@ -14,6 +19,15 @@ matplotlib.rcParams["axes.titlesize"] = 25
 matplotlib.rcParams["figure.figsize"] = (10, 6)
 matplotlib.rcParams["lines.linewidth"] = 1.75
 
+
+def add_logo(ax, location: Tuple[float, float] = (0.85, -0.15)):
+    global LOGO_IMAGE
+    if LOGO_IMAGE is None:
+        LOGO_IMAGE = plt.imread("../assets/figure_logo.png")
+
+    imagebox = OffsetImage(LOGO_IMAGE, zoom = 0.35)
+    ab = AnnotationBbox(imagebox, location, frameon=False, xycoords='axes fraction')
+    ax.add_artist(ab)
 
 def create_legend(legend=None, title: str = None, loc: str = None):
     if legend is None:
@@ -66,3 +80,7 @@ def percent_change_relative_to(df: pd.DataFrame, date: str, column_name: str) ->
     df_relative_to_date["Percent Change"] = 100 * (df_relative_to_date[column_name] - start) / start
 
     return df_relative_to_date
+
+
+def savefig(file_path: str, file_format: str = ".png"):
+    plt.savefig(file_path + file_format, dpi=1200, facecolor='white', transparent=False)
